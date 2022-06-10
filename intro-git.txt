@@ -1,0 +1,20 @@
+# Resumo Sobre GitHub
+
+### Comandos Básicos
+
+- cd >> Navegar entre pastas;
+- Ls >> listar os diretórios;
+- crtl+L >> limpa a janela de comandos do git;
+- pgup> navega no histórico de comandos anteriores;
+- rmdir "nome do diretório" /S /Q >> remove o diretório;
+- git init >> inicia o trabalho em um repositório. Pode ser conferir com o comando "Ls -a";
+- git config -- global user.email "digitar email",
+- git config -- global user.name "nickname no git";
+- git status >> monitora como está o estado do trabalho;
+- git add * >> adiciona todos os arquivos modificado em stage;
+- git commit -m "commit inicial" >> comita os arquivos editados;
+- git remote add origin "link do repositório git remoto" >> vai preparar os arquivos do servidor local para o remoto;
+- git remote -v >> lista os arquivos transmitidos para o servidor remoto;
+- git push origin master >> vai empurrar o repositório local para o servidor remoto;
+- git pull master >> se houver erro relacionado com arquivos editados por pessoas diferentes é necessário editar manualmente o arquivo mais recente para depois enviar com a junção das edições;
+- git clone "link do repositório que quer clonar" >> clona todo o repositório do servidor remoto.
